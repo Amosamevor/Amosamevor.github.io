@@ -1,0 +1,80 @@
+Gracious Budget App (Gbudget) Documentation
+
+Table of Contents
+Introduction
+Getting Started
+Features
+How to Use Gbudget
+Security and Privacy
+Technical Specifications
+Support and Feedback
+Conclusion
+
+1. Introduction
+Purpose
+Gracious Budget App (Gbudget) is a financial management tool designed to empower individuals with efficient budgeting skills. It offers a user-friendly interface and secure features to assist users in managing their finances effectively.
+
+Objective
+The primary objective of Gbudget is to provide a platform that enables users to track expenses, set budgets, and gain insights into their financial habits.
+
+2. Getting Started
+System Requirements
+Supported Browsers: Chrome, Firefox, Safari, Edge
+Internet connection required
+Installation
+Gbudget is a web-based application and doesn't require installation.
+Accessing Gbudget
+Users can access Gbudget.
+
+3. Features
+Core Features
+Expense Tracking: Record and categorize expenses.
+Budget Setting: Set monthly or custom budgets for different categories.
+Insights and Reports: View graphical representations of spending patterns.
+Multi-currency Support: Manage finances in various currencies.
+Secure Data Sharing: Share financial data securely with trusted individuals.
+
+4. How to Use Gbudget
+Signing Up / Logging In
+New users can create accounts by providing necessary details.
+Existing users can log in using their credentials.
+Dashboard Overview
+Overview of Gbudget's main interface and its components.
+Managing Expenses
+Adding, editing, and deleting expenses.
+Categorizing expenses for better organization.
+Setting Budgets
+Creating monthly or customized budgets for different categories.
+Monitoring budget progress.
+Generating Reports
+Viewing graphical representations of spending habits and patterns.
+Managing Data
+Securely sharing financial data with trusted individuals.
+
+5. Security and Privacy
+Data Security
+Gbudget employs robust security measures to protect user data.
+Encryption and secure storage of sensitive information.
+Privacy Policy
+Details regarding data collection, usage, and user privacy.
+
+6. Technical Specifications
+Technologies Used
+HTML, CSS, JavaScript for frontend development.
+Google Drive and GitHub for hosting and version control.
+Compatibility
+Gbudget is compatible with various devices, including smartphones, tablets, and computers.
+
+7. Support and Feedback
+Customer Support
+Contact information for customer support and assistance.
+Feedback
+Users are encouraged to provide feedback for improving Gbudget.
+
+8. Conclusion
+Summary
+Recapitulation of Gbudget's purpose, features, and benefits.
+This structure provides an outline for comprehensive documentation for Gbudget. Each section can be expanded with detailed information, instructions, screenshots, and examples to ensure clarity and ease of use for the end-users. Adjust and expand the content according to the specific functionalities and characteristics of Gbudget.
+
+
+
