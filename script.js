@@ -55,7 +55,7 @@ const convertCurrency = (amount, fromCurrency, toCurrency) => {
     USD: 1,
     EUR: 0.88,
     GBP: 0.75,
-    GHS: 6.10,
+    GHS: 11.80,
     // Add other currencies and their exchange rates as needed
   };
 
