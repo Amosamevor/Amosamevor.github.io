@@ -53,8 +53,8 @@ totalAmountButton.addEventListener("click", setBudget);
 const convertCurrency = (amount, fromCurrency, toCurrency) => {
   const exchangeRates = {
     USD: 1,
-    EUR: 0.88,
-    GBP: 0.75,
+    EUR: 0.93,
+    GBP: 0.80,
     GHS: 11.80,
     // Add other currencies and their exchange rates as needed
   };
