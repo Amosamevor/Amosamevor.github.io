@@ -5,11 +5,127 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #7894e7;
+  background-color: #51bd51;
+  background-image: url('gb background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Set the height to cover the entire viewport */
+  overflow: auto; /* Enable scrolling if content exceeds the viewport height */
 }
+
+/* Style the header element */
+#header {
+  background-color: #333; /* Change the background color as needed */
+  color: rgb(113, 209, 129); /* Text color */
+  padding: 15px; /* Adjust the padding according to your design */
+}
+
+/* Style the navigation inside the header */
+#h-nav ul {
+  list-style-type: none; /* Remove default list styles */
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the navigation links */
+#h-nav ul li {
+  display: inline-block; /* Display the list items horizontally */
+  margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+/* Style the navigation links' anchor tags */
+#h-nav ul li a {
+  text-decoration: none; /* Remove underline */
+  color: rgb(90, 34, 34); /* Link color */
+  font-weight: bold; /* Font weight */
+}
+
+/* Style the navigation links on hover */
+#h-nav ul li a:hover {
+  text-decoration-line: overline;
+ }
+/* Initially hide the navigation */
+#h-nav {
+  display: none;
+}
+/* CSS to hide the navigation */
+.hidden {
+  display: none;
+}
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+#header {
+  background-color: #2e0e0e;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px;
+  display: flex;
+  border: 1px solid #020808;
+  border-radius: 0.9em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Toggle button styles */
+#nav-menu {
+  background: none;
+  border: none;
+  color: rgb(91, 143, 7);
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+/* Navigation menu styles */
+#h-nav {
+  display: none;
+  flex-direction: column;
+}
+
+#h-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#h-nav ul li {
+  margin-bottom: 10px;
+}
+
+#h-nav ul li a {
+  text-decoration: none;
+  color: rgb(47, 73, 5);
+}
+
+/* Media query for responsive design */
+@media screen and (min-width: 768px) {
+  #header {
+    padding: 10px 40px;
+  }
+
+  #nav-toggle {
+    display: none;
+  }
+
+  #h-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  #h-nav ul li {
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+}
+
+
 .wrapper {
   width: 90%;
-  font-size: 16px;
+  font-size: 20px;
   max-width: 43.75em;
   margin: 1em auto;
 }
@@ -32,7 +148,7 @@ body {
   align-items: center;
 }
 .wrapper h3 {
-  color: #363d55;
+  color: #1f942e;
   font-weight: 500;
   margin-bottom: 0.6em;
 }
@@ -42,23 +158,23 @@ body {
   padding: 0.6em 0.3em;
   border: 1px solid #d0d0d0;
   border-radius: 0.3em;
-  color: #414a67;
+  color: #342ac9;
   outline: none;
   font-weight: 400;
   margin-bottom: 0.6em;
 }
 .container input:focus {
-  border-color: #587ef4;
+  border-color: #349c71;
 }
 .total-amount-container,
 .user-amount-container {
-  background-color: #ffffff;
+  background-color: #7a2b2b;
   padding: 1.25em 0.9em;
   border-radius: 0.3em;
   box-shadow: 0 0.6em 1.2em rgba(28, 0, 80, 0.06);
 }
 .output-container {
-  background-color: #587ef4;
+  background-color: #67a321;
   color: #ffffff;
   border-radius: 0.3em;
   box-shadow: 0 0.6em 1.2em rgba(28, 0, 80, 0.06);
@@ -73,7 +189,7 @@ body {
   display: block;
   text-align: center;
   font-weight: 400;
-  color: #e5e5e5;
+  color: #ebe0e0;
 }
 .submit {
   font-size: 1em;
@@ -87,7 +203,7 @@ body {
   cursor: pointer;
 }
 .list {
-  background-color: #ffffff;
+  background-color: #300707;
   padding: 1.8em 1.2em;
   box-shadow: 0 0.6em 1.2em rgba(28, 0, 80, 0.06);
   border-radius: 0.6em;
@@ -141,4 +257,21 @@ body {
     grid-template-columns: 1fr;
     gap: 1em;
   }
+}
+
+#budget-currency-selector {
+  padding: 2px;
+  font-size: 14px;
+  border: 1px solid #da1818;
+  border-radius: 7px;
+  outline: none;
+  
+}
+#expense-currency-selector {
+  padding: px;
+  font-size: 14px;
+  border: 1px solid #da1818;
+  border-radius: 7px;
+  outline: none;
+  
 }
