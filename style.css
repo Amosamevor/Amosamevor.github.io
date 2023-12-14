@@ -1,9 +1,11 @@
+/* Global reset and basic styles */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+/* Body styles */
 body {
   background-color: #51bd51;
   background-image: url('gb background.jpg');
@@ -273,5 +275,14 @@ body {
   border: 1px solid #da1818;
   border-radius: 7px;
   outline: none;
+}
   
+ /* Hide all sections initially */
+ section {
+  display: none;
+  color: #030803;
+  background-color: #352ac998;
+  border-radius: 13px;
+  padding: 8px;
+  margin: 6px;
 }
