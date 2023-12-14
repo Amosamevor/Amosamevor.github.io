@@ -53,9 +53,9 @@ totalAmountButton.addEventListener("click", setBudget);
 const convertCurrency = (amount, fromCurrency, toCurrency) => {
   const exchangeRates = {
     USD: 1,
-    EUR: 0.93,
-    GBP: 0.80,
-    GHS: 11.80,
+    EUR: 0.88,
+    GBP: 0.75,
+    GHS: 6.10,
     // Add other currencies and their exchange rates as needed
   };
 
@@ -143,3 +143,18 @@ deleteButton.addEventListener("click", () => {
   modifyElement(deleteButton);
 });
 
+
+document.querySelectorAll("#h-nav ul li a").forEach(function(link) {
+  link.addEventListener("click", function(event) {
+    event.preventDefault();
+    var target = this.getAttribute("href").substring(1);
+    var sections = document.querySelectorAll("section");
+    sections.forEach(function(section) {
+      if (section.id === target) {
+        section.style.display = (section.style.display === "block") ? "none" : "block";
+      } else {
+        section.style.display = "none";
+      }
+    });
+  });
+});
